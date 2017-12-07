@@ -8,8 +8,6 @@
 #include <hash.h>
 #include <tinyformat.h>
 #include <utilstrencodings.h>
-#include <chainparams.h>
-#include <consensus/params.h>
 #include <crypto/common.h>
 
 uint256 CBlockHeader::GetHash() const
